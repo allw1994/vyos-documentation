@@ -20,8 +20,8 @@ Configuration
 
 .. cfgcmd:: set service dhcp-relay interface <interface>
 
-   Interfaces that participate in the DHCP relay process, including the uplink
-   to the DHCP server.
+   Interfaces that participate in the DHCP relay process. To ensure correct functionality
+   this must include the uplink (to the DHCP server) and downlink (to the DHCP clients).
 
 .. cfgcmd:: set service dhcp-relay server <server>
 
